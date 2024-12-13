@@ -1,0 +1,26 @@
+@model List<Ogrenci>
+    <h3>Ögrenci Listesi</h3>
+
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>Ögrenci No</th>
+            <th>Ad</th>
+            <th>ePosta</th>
+            <th>Ders</th>
+            <th>Sınıf</th>
+            <th>Bölüm</th>
+            <th>detay...00000</th>
+        </tr>
+@foreach(var item in @model){
+
+    <tr>
+        <td>@item.OgrNo</td>
+        <td>@item.Adi</td>
+        <td>@item.SoyAdi</td>
+        <td>@item.ePosta</td>
+        <td>@item.Sinif</td>
+        <td>@item.Bolum.BolumAdi</td>
+    </tr>
+}
+
+    </table>

@@ -1,0 +1,7 @@
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\web tabanlı prograsmlama\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs

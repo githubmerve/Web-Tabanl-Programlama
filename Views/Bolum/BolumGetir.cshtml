@@ -1,0 +1,12 @@
+@model Bolum
+<div class="center">
+<h3><p><b> @ViewBag.msg</b></p></h3>
+@using (Html.BeginForm("BolumDuzenle","Bolum",FormMethod.Post)){
+<label>Bölüm ID</label>
+@Html.TextBoxFor(x=> x.id, new {@class="form-control", @readonly="readonly"})
+<b>Bölüm Adı</b>
+@Html.TextBoxFor(x=> x.BolumAdi, new {@class="form-control"})
+<br/>
+<button type="submit" class="btn btn-warning"> Kaydet </button>
+}
+</div>

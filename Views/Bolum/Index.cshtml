@@ -1,0 +1,21 @@
+@model List<Bolum>
+<div>
+<table class="table table-striped table-hover">
+<tr>
+<th>Bölüm ID </th>
+<th>Bölüm Adı </th>
+<th>Düzenle </th>
+<th>Sil </th>
+</tr>
+@foreach(var item in @Model)
+{
+<tr>
+<td>@item.id </td>
+<td>@item.BolumAdi </td>
+<td> <a class="btn btn-warning"> Düzenle </a> </td>
+<td> <a class="btn btn-danger" asp-controller="Bolum" asp-action="BolumSil" asproute-id="@item.id"> Sil </a> </td>
+
+</tr>
+}
+</table>
+</div>

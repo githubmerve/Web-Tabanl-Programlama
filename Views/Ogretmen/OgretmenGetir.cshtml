@@ -1,0 +1,17 @@
+@model Ogretmen 
+<h3><p><b>@ViewBag.msg</b></p></h3>
+
+@using (Html.BeginForm("OgretmenDuzenle", "Ogretmen", FormMethod.Post)){
+    <label>ID</label>>
+    @html.TextBoxFor(o=> o.OgremtneID, new{@class="form-control", @readonly="readonly"})
+    <label>Ad</label>>
+    @html.TextBoxFor(o=> o.Ad, new{@class="form-control"})
+    <label>Soyad</label>>
+    @html.TextBoxFor(o=> o.Soyad, new{@class="form-control"})
+    <label>Unvan</label>>
+    @html.TextBoxFor(o=> o.Unvan, new{@class="form-control"})
+    <label>Bölüm</label>>
+    @html.TextBoxFor(o=> o.BolumId, new{@class="form-control"})
+    <br />
+    <button type="submit" class="btn btn-warning">Kaydet</button>
+    }
